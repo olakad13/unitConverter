@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: #1F2937;;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#input-section {
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2em;
+    min-height: 17rem;
+    padding: 1.5em;
+}
+
+#header {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Number-input {
+    line-height: 1em;
+    width: 7rem;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #6943FF;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+}
+
+#conversion-btn {
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+}
+
+.output {
+    background: #273549;
+    color: #CCC1FF;
+    margin: 2em auto;
+    width: 90%;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
+.header {
+    margin-bottom: 1em;
+    border-radius: 4.68077px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.result {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+@media screen  and (max-width: 370px){
+    #header {
+        font-size: 1.8rem;
+    }
+    #Number-input {
+        font-size: 35px;
+        width: 5rem;
+    }
+
+    #conversion-btn {
+        width: 100px;
+    }
+
+    .result {
+        font-size: 12px;
+    }
+}
